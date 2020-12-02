@@ -1,26 +1,35 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
+// Configuração para requisições na rede
 import web3 from "./web3";
+// Informação do contrato
 import loteria from "./loteria";
 
 const App = () => {
+  // Cria variáveis e funções de alteração
   const [gerente, setGerente] = useState("");
   const [jogadores, setJogadores] = useState("");
   const [saldo, setSaldo] = useState("");
   const [value, setValue] = useState("");
   const [mensagem, setMensagem] = useState("");
 
+  // Função assincrona que carrega os dados do contrato
   const carregarDados = async () => {
+    // Pega a carteira do gerente do contrato
     const _gerente = await loteria.methods.gerente().call();
+    // Pega a carteira dos jogadores
     const _jogadores = await loteria.methods.getJogadores().call();
+    // Pega o valor total vinculado ao contrato
     const _saldo = await web3.eth.getBalance(loteria.options.address);
 
+    // Armazena os valores nas variáveis de gerente, jogador e saldo
     setGerente(_gerente);
     setJogadores(_jogadores);
     setSaldo(_saldo);
     setValue("");
   };
+  // Antes da página carregar ele chama seu conteúdo
   useEffect(() => {
+    // Busca dados do contrato
     carregarDados();
   }, []);
 
@@ -29,6 +38,7 @@ const App = () => {
     try {
       // Evita que a página seja recarregada
       event.preventDefault();
+      // Altera valor da mensagem exibida
       setMensagem("Aguardando a  validação da transação...");
       // Pega contas do metamask
       const contas = await web3.eth.getAccounts();
@@ -44,18 +54,23 @@ const App = () => {
       // Altera mensagem
       setMensagem("Transação concluida!");
     } catch (error) {
+      // Caso o usuário cancele a solicitação no metamask
       if (error.code === 4001) {
         setMensagem("Transação cancelada!");
       } else {
+        // Caso algo esteja fora das políticas do contrato
         setMensagem("Transação vai contra regras do contrato");
       }
     }
   };
-  // * Realiza uma aposta
+  // * Realiza sorteio
   const sortear = async () => {
     try {
+      // Altera mensagem
       setMensagem("Aguardando processamento...");
+      // Pega contas do metamask
       const contas = await web3.eth.getAccounts();
+      // Solicita sorte e manda conta que está realizando o sorteio
       await loteria.methods.sorteio().send({
         from: contas[0],
       });
@@ -64,9 +79,11 @@ const App = () => {
       // Altera mensagem
       setMensagem("Um vencedor foi escolhido!");
     } catch (error) {
+      // Caso o usuário cancele a solicitação no metamask
       if (error.code === 4001) {
         setMensagem("Transação cancelada!");
       } else {
+        // Caso algo esteja fora das políticas do contrato
         setMensagem("Transação vai contra regras do contrato");
       }
     }
@@ -86,6 +103,7 @@ const App = () => {
           <label>Quantidade de ether para ser enviado: </label>
           <input
             value={value}
+            // Altera o valor que está sendo apostado
             onChange={(event) => setValue(event.target.value)}
           />
         </div>
@@ -95,6 +113,7 @@ const App = () => {
       <h4>Realizar sorteio? </h4>
       <button onClick={sortear}> Sortear</button>
       <hr />
+      {/* Mostra mensagem ao usuário */}
       <h1>{mensagem}</h1>
     </div>
   );

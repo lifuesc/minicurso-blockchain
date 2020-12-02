@@ -1,7 +1,8 @@
+// importa o web3
 import web3 from "./web3";
-// importe o web3
+// Endereço do contrato gerado no deploy
 const address = "0x74F774570C3DBA08653151C75124289243d68b47";
-// copie e cole o endereço do console
+// Abi gerada no deploy do contrato
 const abi = [
   {
     inputs: [],
@@ -57,6 +58,5 @@ const abi = [
   },
 ];
 
-// copie e cole a interface gerada no console
-export default new web3.eth.Contract(abi, address);
 //exporte o contrato
+export default new web3.eth.Contract(abi, address);
