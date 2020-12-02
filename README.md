@@ -9,6 +9,6 @@ Apresentação e código auxiliado por Henrique Andrade Serra
    - [NodeJs](#)
    - [React](#)
 2. [Código Práticas](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas)
-   - [Smart Contract Test](https://github.com/lifuesc/minicurso-blockchain/tree/main/smart-contract-test)
+   - [Smart Contract Test](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/smart-contract-test)
    - [Loteria](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/loteria)
    - [Loteria ReactJs](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/loteria-react)
