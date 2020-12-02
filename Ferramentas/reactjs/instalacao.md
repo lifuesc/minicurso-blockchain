@@ -2,6 +2,7 @@
 
 1. [Instalação](#instalação)
 2. [Criando projeto](#criando-projeto)
+3. [Rodando projeto](#rodando-projeto)
 
 ## Instalação
 
@@ -19,4 +20,12 @@ Para criar um projeto em ReactJs basta rodar:
 
 ```shellscript
 $ create-react-app nome-projeto
+```
+
+## Rodando projeto
+
+Após criado o projeto, entre no diretório raiz dele. Uma vez nele, rode:
+
+```shellscript
+$ npm start
 ```
