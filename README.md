@@ -20,8 +20,8 @@ Colaboradores:
 
 1. [Tutoriais de Ferramentas](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/)
    - [MetaMask](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/metamask)
-   - [NodeJs](#)
-   - [React](#)
+   - [NodeJs](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/node)
+   - [React](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/reactjs)
 2. [Código Práticas](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas)
    - [Smart Contract Test](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/smart-contract-test)
    - [Loteria](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/loteria)
