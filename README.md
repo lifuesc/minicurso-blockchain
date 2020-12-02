@@ -1,8 +1,22 @@
 # Minicurso blockchain - Contratos Inteligentes
 
-Projeto desenvolvimento pelo professor Jauberth Weyll Abijaude.
+Projeto desenvolvido pelos grupos de pesquisa do CNPQ LIF(UESC) e GAUDI(UFBA).
 
-Apresentação e código auxiliado por Henrique Andrade Serra
+Com professores:
+
+- Jauberth W. Abijaude (UESC)
+- Fabíola Greve (UFBA)
+
+Professor convidador:
+
+- Pérciles de Lima Sobreira (University of Quebec Outaouais)
+
+Colaboradores:
+
+- Levy Santiago Mestrando em Ciência da Computação pela UFBA
+- Henrique Serra Graduando em Ciência da Computação pela UESC
+
+Índice
 
 1. [Tutoriais de Ferramentas](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/)
    - [MetaMask](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/metamask)
