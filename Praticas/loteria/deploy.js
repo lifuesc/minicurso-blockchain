@@ -11,8 +11,7 @@ const { abi, evm } = require("./compile");
 // Passamos dois argumentos, as palavras mnemonicas e o link da rede infura
 const provider = new HDWalletProvider({
   mnemonic: { phrase: process.env.mnemonic },
-  providerOrUrl:
-    "https://rinkeby.infura.io/v3/c378d76542874a82a22a84b9ef07df74",
+  providerOrUrl: process.env.provider,
 });
 
 // Enviamos para o Web3 o provider

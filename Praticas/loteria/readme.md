@@ -1,8 +1,6 @@
 # Teste de contratos inteligentes
 
-Projeto desenvolvimento pelo professor Jauberth Weyll Abijaude.
-
-Apresentação auxiliar por Henrique Andrade Serra
+Para tutorial de como fazer esse projeto [leia aqui](#)
 
 ## Configurações iniciais
 
