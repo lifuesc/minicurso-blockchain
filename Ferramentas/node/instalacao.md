@@ -8,7 +8,7 @@
 
 ## Instalação
 
-### Linux
+### Linux (Ubuntu)
 
 Instalando versão mais recente LTS do nodejs
 
@@ -30,6 +30,8 @@ $ npm -v
 # 6.14.8
 ```
 
+Caso você esteja em outra distribuição acesse [esse link](https://nodejs.org/en/download/) e baixe a versão LTS para seu computador
+
 Caso sua versão do node venha inferior a v14, então rode o seguinte comando
 
 ```shellscript
@@ -44,8 +46,16 @@ $ sudo n latest
 
 ### Windows 10
 
-Em breve
+Para instalar no windows 10 acesse [esse link](https://nodejs.org/en/download/) e baixe a versão LTS para seu computador
+
+Baixe o formato`.msi`
+
+Em seguida execute o arquivo e siga com a instalação
 
 ### MacOs
 
-Em breve
+Para instalar no windows 10 acesse [esse link](https://nodejs.org/en/download/) e baixe a versão LTS para seu computador
+
+Baixe o formato`.msi`
+
+Em seguida execute o arquivo e siga com a instalação
