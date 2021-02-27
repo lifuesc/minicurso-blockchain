@@ -22,6 +22,12 @@ Para criar um projeto em ReactJs basta rodar:
 $ create-react-app nome-projeto
 ```
 
+Podemos rodar, para versões do npm acima de `v5.1`, o seguinte comando:
+
+```shellscript
+$ npx create-react-app nome-projeto
+```
+
 ## Rodando projeto
 
 Após criado o projeto, entre no diretório raiz dele. Uma vez nele, rode:
