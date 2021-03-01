@@ -25,12 +25,12 @@
 A blockchain é uma tecnologia disruptiva que oferece uma rede de confiança digital para a realização de transações entre pares. Os contratos inteligentes são códigos hospedados na blokchain e que estabelecem cláusulas contratuais a serem seguidas. Neste minicurso, apresentaremos os conceitos fundamentais, os mecanismos e as plataformas utilizadas por estas tecnologias, de forma a desenvolver em seus participantes as competências necessárias à implementação de aplicações Web confiáveis. Para isto, iremos demonstrar, através de exercícios práticos, um modelo de implementação de contratos inteligentes interagindo com sistemas Web, além de discutirmos os avanços, as oportunidades e os desafios em pesquisas relacionadas à esta área do conhecimento.
 
 <h3> Índice do Minicurso </h3> 
-  1. Introdução <br>
+  1. [Introdução](https://github.com/lifuesc/minicurso-blockchain/tree/main/text/)
   1.1. Histórico e Fundamentos<br>
   1.2. Propriedades da Blockchain<br>
   1.2. Componentes de uma rede Blockchain<br>
 <br>
-  
+
 2. Ethereum e Contratos Inteligentes
 2.1. Plataforma Ethereum
 2.1.1. Rede Principal e de Testes
