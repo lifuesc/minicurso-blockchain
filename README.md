@@ -32,6 +32,8 @@ A blockchain é uma tecnologia disruptiva que oferece uma rede de confiança dig
 
 Índice
 
+1. Introdução
+
 1. [Tutoriais de Ferramentas](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/)
    - [MetaMask](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/metamask)
    - [NodeJs](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/node)
