@@ -4,9 +4,20 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-# Simpósio Brasileiro de Sistemas de Informação
+<br />
+<p align="center">
+  <a href="https://github.com/lifuesc/minicurso-blockchain/">
+    <img src="./img/sbsi.jpeg" alt="Logo" width="200">
+  </a>
 
-## Minicurso Blockchain, Contratos Inteligentes e Sistemas Web: Teoria e Prática
+  <h2 align="center">Minicurso Blockchain, Contratos Inteligentes e Sistemas Web: Teoria e Prática</h2>
+
+  <h2 align="center">
+    Simpósio Brasileiro de Sistemas de Informação
+    <br />
+ 
+  </h2>
+</p>
 
 Autores
 
