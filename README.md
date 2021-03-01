@@ -1,20 +1,16 @@
-# Minicurso blockchain - Contratos Inteligentes
+# Simpósio Brasileiro de Sistemas de Informação
+Minicurso Blockchain, Contratos Inteligentes e Sistemas Web: Teoria e Prática
 
-Projeto desenvolvido pelos grupos de pesquisa do CNPQ LIF(UESC) e GAUDI(UFBA).
-
-Com professores:
-
+Autores
 - Jauberth W. Abijaude (UESC)
 - Fabíola Greve (UFBA)
-
-Professor convidado:
-
 - Pérciles de Lima Sobreira (University of Quebec Outaouais)
-
-Colaboradores:
-
 - Levy Santiago Mestrando em Ciência da Computação pela UFBA
 - Henrique Serra Graduando em Ciência da Computação pela UESC
+
+Resumo:
+A blockchain é uma tecnologia disruptiva que oferece uma rede de confiança digital para a realização de transações entre pares. Os contratos inteligentes são códigos hospedados na blokchain e que estabelecem cláusulas contratuais a serem seguidas. Neste minicurso,  apresentaremos os conceitos fundamentais, os mecanismos e as plataformas utilizadas por estas tecnologias, de forma a desenvolver em seus participantes as competências necessárias à implementação de aplicações Web confiáveis. Para isto, iremos demonstrar, através de exercícios práticos, um modelo de implementação de contratos inteligentes interagindo com sistemas Web, além de discutirmos os avanços, as oportunidades e os desafios em pesquisas relacionadas à esta área do conhecimento.
+
 
 Índice
 
