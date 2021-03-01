@@ -7,7 +7,7 @@ Com professores:
 - Jauberth W. Abijaude (UESC)
 - Fabíola Greve (UFBA)
 
-Professor convidador:
+Professor convidado:
 
 - Pérciles de Lima Sobreira (University of Quebec Outaouais)
 
