@@ -1,5 +1,5 @@
 # Simpósio Brasileiro de Sistemas de Informação
-Minicurso Blockchain, Contratos Inteligentes e Sistemas Web: Teoria e Prática
+## Minicurso Blockchain, Contratos Inteligentes e Sistemas Web: Teoria e Prática
 
 Autores
 - Jauberth W. Abijaude (UESC)
