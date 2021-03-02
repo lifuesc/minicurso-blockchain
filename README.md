@@ -10,7 +10,7 @@
     <img src="./img/sbsi2.png" alt="Logo" width="800">
   </a>
 
-  <h2 align="center">Minicurso Blockchain, Contratos Inteligentes e Sistemas Web: Teoria e Prática</h2>
+  <h2 align="center">Minicurso Blockchain, Contratos Inteligentes e Sistemas Web: </br> Teoria e Prática</h2>
 
 </p>
 
@@ -23,6 +23,8 @@
 - Fabíola Greve (UFBA)
 
 A blockchain é uma tecnologia disruptiva que oferece uma rede de confiança digital para a realização de transações entre pares. Os contratos inteligentes são códigos hospedados na blokchain e que estabelecem cláusulas contratuais a serem seguidas. Neste minicurso, apresentaremos os conceitos fundamentais, os mecanismos e as plataformas utilizadas por estas tecnologias, de forma a desenvolver em seus participantes as competências necessárias à implementação de aplicações Web confiáveis. Para isto, iremos demonstrar, através de exercícios práticos, um modelo de implementação de contratos inteligentes interagindo com sistemas Web, além de discutirmos os avanços, as oportunidades e os desafios em pesquisas relacionadas à esta área do conhecimento.
+
+A seguir, temos o Índice do  minicurso e o ïndice dos tutoriais, com as práticas!
 
 ### Índice do Minicurso ###
 1. Introdução  
