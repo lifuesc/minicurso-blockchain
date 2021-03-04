@@ -61,10 +61,10 @@ Referências
    - [MetaMask](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/metamask)
    - [NodeJs](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/node)
    - [React](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/reactjs)
-2. [Código Práticas](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas)
-   - [Smart Contract Test](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/smart-contract-test)
-   - [Loteria](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/loteria)
-   - [Loteria ReactJs](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/loteria-react)
+2. [Código das Práticas](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas)
+   - [Primeiro Smart Contract - Inbox.sol](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/smart-contract-test)
+   - [Projero Loteria](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/loteria)
+   - [DApp Loteria ReactJs](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/loteria-react)
 
 [contributors-shield]: https://img.shields.io/github/contributors/lifuesc/minicurso-blockchain.svg?style=for-the-badge
 [contributors-url]: https://github.com/lifuesc/minicurso-blockchain/graphs/contributors
