@@ -1,6 +1,6 @@
 # Teste de contratos inteligentes
 
-Para tutorial de como fazer esse projeto [leia aqui](#)
+Para tutorial de como fazer esse projeto [leia aqui](https://github.com/lifuesc/minicurso-blockchain/blob/main/Praticas/loteria/passoApasso.md)
 
 ## Configurações iniciais
 
