@@ -8,4 +8,4 @@ Após a instalação do node e npm basta abrir o terminal e instalar o create-re
 $ sudo npm install create-react-app -g
 ```
 
-Não possui o npm? [Verifique esse tutorial](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/node)
+Não possui o npm? [Verifique esse tutorial](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/node/insstalacao.md)

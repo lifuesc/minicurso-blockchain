@@ -4,7 +4,7 @@
    - [Linux (Ubuntu 20.04)](#linux---ubuntu-20)
    - [Windows 10](#windows-10)
    - [MacOs](#macos)
-2. [Instalação ReactJs](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/reactjs)
+2. [Instalação ReactJs](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/reactjs/instalacao.md)
 
 ## Instalação
 
