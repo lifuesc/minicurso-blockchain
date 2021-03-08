@@ -1,9 +1,5 @@
 # Teste de contratos inteligentes
 
-Projeto desenvolvimento pelo professor Jauberth Weyll Abijaude.
-
-Apresentação auxiliar por Henrique Andrade Serra
-
 ## Configurações iniciais
 
 Crie o `.env` no seu diretório raiz e copie o conteúdo do `.env.example` e substitua com suas informações.

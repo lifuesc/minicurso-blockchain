@@ -1,5 +1,11 @@
 # Criando projeto
 
+1. [Criando projeto](#comando-criação)
+2. [Rodando projeto](#rodando-projeto)
+3. [Alterando diretório](#alterando-diretório)
+
+## Comando criação
+
 Para seguir esse tutorial é necessário a instalação do [react](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/reactjs/instalacao.md)
 
 Para criar um projeto em ReactJs basta rodar:
