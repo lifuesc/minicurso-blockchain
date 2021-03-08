@@ -1,11 +1,5 @@
 # Interface para loteria
 
-Projeto desenvolvimento pelo professor Jauberth Weyll Abijaude.
-
-Apresentação auxiliar por Henrique Andrade Serra
-
-## Configurações iniciais
-
 ## Rodando projeto
 
 Instalando dependencias

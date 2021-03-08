@@ -1,14 +1,14 @@
 # Tutorial - Instalação NodeJs v14
 
 1. [Instalação](#instalação)
-   - [Linux (Ubuntu 20.04)](#linux)
+   - [Linux (Ubuntu 20.04)](#linux---ubuntu-20)
    - [Windows 10](#windows-10)
    - [MacOs](#macos)
 2. [Instalação ReactJs](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/reactjs)
 
 ## Instalação
 
-### Linux (Ubuntu)
+### Linux - Ubuntu 20
 
 Instalando versão mais recente LTS do nodejs
 

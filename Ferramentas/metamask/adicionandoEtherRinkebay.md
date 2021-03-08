@@ -1,10 +1,13 @@
 # Adicionando Ether na rede Rinkeby
 
+Para seguir esse tutorial é necessário a instalação e configuração do [metamask](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/metamask/instalacao.md)
+
+Índice
+
 1. [Escolhendo a rede](#escolhendo-a-rede)
-2. [Transferindo Ether](#transferindo-ether)
+2. [Recebendo Ether](#recebendo-ether)
    - [Mensagem no facebook](#mensagem-no-facebook)
    - [Pegando Ether](#pegando-ether)
-3. [Criando nova conta](#criando-nova-conta)
 
 ## Escolhendo a rede
 
@@ -24,13 +27,13 @@ O resultado deve ser esse
 
 ![Tela de primeiro acesso do metamask](./img/alterar-rede3.png)
 
-## Transferindo Ether
+## Recebendo Ether
 
 Para adicionar Ether na sua carteira na rede Rinkeby basta acessa esse site [Rinkeby Authenticated Faucet](https://faucet.rinkeby.io/)
 
 ![Tela de primeiro acesso do metamask](./img/add-ether1.png)
 
-O site oferece duas formas de receber ether, pelo Twitter ou Facebook. Aqui iremos usar o Facebook como exemplo, pois funciona de forma semelhante para o Twitter
+O site oferece duas formas de receber ether, pelo Twitter ou Facebook. Aqui iremos usar o Facebook como exemplo, mas funciona de forma semelhante para o Twitter
 
 ### Mensagem no Facebook
 
@@ -64,30 +67,4 @@ Cole o URL no site e selecione a opção com mais ether `18.75 Ether / 3 days`
 
 Após alguns instantes sua carteira deve receber o Ether na rede Rinkeby!
 
-**obs:** Esse mesmo URL do facebook servirá para pegar mais Ether após o tempo limite!
-
-## Criando nova conta
-
-Com o MetaMask é possivel criar outras contas. Para isso abra o MetaMask clicando no seu icone.
-
-![Tela de primeiro acesso do metamask](./img/icon-metamask.png)
-
-Clique no icone da sua conta que fica do lado direito do nome da rede que está usando
-
-![Tela de primeiro acesso do metamask](./img/alterar-rede3.png)
-
-Clique em `Create Account`
-
-![Tela de primeiro acesso do metamask](./img/new-account1.png)
-
-Preencha com o nome da conta, caso não deseje ele irá assumir um nome padrão
-
-![Tela de primeiro acesso do metamask](./img/new-account2.png)
-
-Uma vez criada ela está pronta para uso
-
-![Tela de primeiro acesso do metamask](./img/new-account3.png)
-
-Para alterar entre contas basta clicar no nome dela
-
-![Tela de primeiro acesso do metamask](./img/new-account4.png)
+**Obs:** Esse mesmo URL do facebook servirá para pegar mais Ether após o tempo limite!

@@ -1,6 +1,6 @@
 # Passo a passo de como rodar o contrato
 
-1. [Rodando o projeto existente](#)
+1. [Rodando o projeto existente](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/loteria)
 2. [Passo a passo](#passo-a-passo)
 
 ## Passo a passo

@@ -32,11 +32,15 @@ A blockchain é uma tecnologia disruptiva que oferece uma rede de confiança dig
 
 Índice
 
-1. [Tutoriais de Ferramentas](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/)
-   - [MetaMask](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/metamask)
-   - [NodeJs](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/node)
-   - [React](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/reactjs)
-2. [Código Práticas](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas)
+1. [Tutoriais](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/)
+   - [Instalação VsCode](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/vscode/instalacao.md)
+   - [Instalação NodeJs](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/node/instalacao.md)
+   - [Instalação MetaMask e primeiro acesso](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/metamask/instalacao.md)
+   - [Adicionando Ether na rede rinkebay](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/metamask/adicionandoEtherRinkebay.md)
+   - [Criando novas contas no MetaMask](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/metamask/criandoContas.md)
+   - [Instalando o React](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/reactjs)
+   - [Criando projeto React](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/reactjs/criandoProjeto.md)
+2. [Práticas](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas)
    - [Smart Contract Test](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/smart-contract-test)
    - [Loteria](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/loteria)
    - [Loteria ReactJs](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/loteria-react)
