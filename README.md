@@ -63,7 +63,7 @@ Referências
    - [Instalação MetaMask e primeiro acesso](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/metamask/instalacao.md)
    - [Adicionando Ether na rede rinkebay](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/metamask/adicionandoEtherRinkebay.md)
    - [Criando novas contas no MetaMask](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/metamask/criandoContas.md)
-   - [Instalando o React](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/reactjs)
+   - [Instalando o React](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/reactjs/instalacao.md)
    - [Criando projeto React](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/reactjs/criandoProjeto.md)
 2. [Práticas](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas)
    - [Primeiro Smart Contract - Inbox.sol](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/smart-contract-test)
