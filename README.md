@@ -66,9 +66,9 @@ Referências
    - [Instalando o React](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/reactjs)
    - [Criando projeto React](https://github.com/lifuesc/minicurso-blockchain/tree/main/Ferramentas/reactjs/criandoProjeto.md)
 2. [Práticas](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas)
-   - [Smart Contract Test](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/smart-contract-test)
-   - [Loteria](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/loteria)
-   - [Loteria ReactJs](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/loteria-react)
+   - [Primeiro Smart Contract - Inbox.sol](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/smart-contract-test)
+   - [Projeto Loteria](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/loteria)
+   - [DApp Loteria ReactJs](https://github.com/lifuesc/minicurso-blockchain/tree/main/Praticas/loteria-react)
 
 [contributors-shield]: https://img.shields.io/github/contributors/lifuesc/minicurso-blockchain.svg?style=for-the-badge
 [contributors-url]: https://github.com/lifuesc/minicurso-blockchain/graphs/contributors
