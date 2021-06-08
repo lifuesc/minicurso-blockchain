@@ -11,25 +11,52 @@ const { abi, evm } = require("./compile");
 // Passamos dois argumentos, as palavras mnemonicas e o link da rede infura
 const provider = new HDWalletProvider({
   mnemonic: { phrase: process.env.mnemonic },
-  providerOrUrl:
-    "https://rinkeby.infura.io/v3/cb5d104ac8404e0990744c9e356179d6",
+  providerOrUrl: process.env.provider,
 });
-
 // Enviamos para o Web3 o provider
 const web3 = new Web3(provider);
 
 const deploy = async () => {
+  // Pega as contas do navegador
   const accounts = await web3.eth.getAccounts();
-  //Recuperamos as contas
-  console.log("Contas usadas para o deploy ", accounts[0]);
-  const result = await new web3.eth.Contract(abi)
-    .deploy({ data: evm.bytecode.object, arguments: ["Estamos na red Rikeby"] })
-    .send({ gas: "1000000", from: accounts[0] });
-  // console.log(abi);
-  console.log("Contrato implementado em ", result.options.address);
-
+  // Pega a primeira conta que será utilizada no deploy
+  const deploymentAccount = accounts[0];
+  // Gera a chave primária a partir da carteira
+  const privateKey =
+    provider.wallets[accounts[0].toLowerCase()].privateKey.toString("hex");
+  // Mostra carteira utilizada para deploy
+  console.log("Conta usada para o deploy ", accounts[0]);
+  try {
+    // Prepara uma instancia do contrato para assinatura
+    let contract = await new web3.eth.Contract(abi)
+      .deploy({
+        data: evm.bytecode.object,
+        arguments: ["Estamos na rede rinkeby"],
+      })
+      .encodeABI();
+    // Configura um objeto para transação
+    let transactionObject = {
+      gas: 4000000,
+      data: contract,
+      from: deploymentAccount,
+    };
+    // Assina o objeto de transação com a chave primária da carteira
+    let signedTransactionObject = await web3.eth.accounts.signTransaction(
+      transactionObject,
+      "0x" + privateKey
+    );
+    // Envia transação assinada para a rede
+    let result = await web3.eth.sendSignedTransaction(
+      signedTransactionObject.rawTransaction
+    );
+    // Mostra endereço do contrato
+    console.log("Contract deployed to", result.contractAddress);
+  } catch (error) {
+    // Mostra caso ocorra algum erro
+    console.log(error);
+  }
   // chamado para fechar o provider de forma adequada
   provider.engine.stop();
 };
 
-deploy();
+(async () => deploy())();

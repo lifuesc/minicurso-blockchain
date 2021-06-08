@@ -27,8 +27,11 @@ var input = {
 
 let contratoCompilado = JSON.parse(solc.compile(JSON.stringify(input)));
 
-// Gera o log para investigação
-// console.log(contratoCompilado.contracts["Inbox.sol"].Inbox);
+// * Mostra abi no terminal
+// * Descomentar para mostrar abi
+// console.log(
+//   JSON.stringify(contratoCompilado.contracts["Inbox.sol"].Inbox.abi, null, 4)
+// );
 
 // Pedimos apenas o nosso contrato para exportação
 module.exports = contratoCompilado.contracts["Inbox.sol"].Inbox;
