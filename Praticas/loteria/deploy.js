@@ -32,6 +32,7 @@ const deploy = async () => {
     let contract = await new web3.eth.Contract(abi)
       .deploy({
         data: evm.bytecode.object,
+        arguments: [],
       })
       .encodeABI();
     // Configura um objeto para transação
